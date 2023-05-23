@@ -310,7 +310,7 @@
 
 .carousel-control-prev,
 .carousel-control-next {
-    margin-top: 15px;
+    margin-bottom: 60px;
 }
 
 .carousel-control-next-icon1:after {
@@ -512,7 +512,7 @@
 .AboutUs_header .right {
     transform: rotate(45deg);
     -webkit-transform: rotate(315deg);
-    border: solid black;
+    border: solid #d3d4d5df;
     border-width: 0 2px 2px 0;
     color: var(--text-color);
     margin-right: 10px;
@@ -522,10 +522,12 @@
     color: var(--text-color);
 }
 
+.Humans_text-title {
+    color: #d3d4d5df;
+}
+
 .AbousUs_content {
-    margin-top: 48px;
-    margin-left: 32px;
-    margin-right: 32px;
+    margin: 48px 32px;
 }
 
 .AbousUs_content h2 {
@@ -602,10 +604,10 @@
 
 .AboutUs_container-introductOfActive {
     background-color: var(--hover-color);
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .introductOfActive-context {
@@ -619,8 +621,8 @@
 .Human-context {
     margin-left: 32px;
     margin-right: 32px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 48px;
+    margin-bottom: 48px;
 }
 
 .Humans-title {
@@ -632,6 +634,8 @@
 .Humans-title:hover h2 {
     color: var(--text-color-main);
 }
+
+.human-img {}
 
 
 /*========================----------- VISION PAGE --------- ==============================*/
@@ -766,4 +770,73 @@
     height: 2px !important;
     border-radius: 0 !important;
     background-color: var(--hover-color) !important;
+}
+
+.Contact-header {
+    background-color: #d3d4d5df;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.Contact-header-context {
+    background-color: white;
+    height: 250px;
+    padding-top: 48px;
+    margin-top: 30px !important;
+    position: absolute;
+}
+
+
+/* .g_pros {
+    height: 30px;
+    width: 300px;
+    background-color: var(--text-color);
+    color: white;
+    padding-top: 16px;
+    border-radius: 10px;
+} */
+
+.contact_form_b tr {
+    height: 60px;
+}
+
+.contact_form_b input {
+    width: 17em;
+    height: 40px;
+}
+
+
+/* .contact_form_b td:not(:focus-visible) {
+    outline: none;
+    box-shadow: 1px 1px 10px var(--text-color);
+} */
+
+.contact_form_b input:focus-visible {
+    outline: 1px solid var(--text-color);
+    border-radius: 1px;
+    border: 1px solid var(--text-color);
+}
+
+.contact_form_b textarea:focus-visible {
+    outline: 1px solid var(--text-color);
+    border-radius: 1px;
+    border: 1px solid var(--text-color);
+}
+
+.submit_st {
+    margin-top: 10px;
+}
+
+.submit_st button {
+    background-color: var(--text-color) !important;
+    color: white;
+    height: 40px;
+    width: 190px;
+    margin-left: 6em;
+}
+
+.submit_st button:hover {
+    opacity: 0.9;
 }
